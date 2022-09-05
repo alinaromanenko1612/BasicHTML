@@ -1,10 +1,6 @@
 html,
 body {
   background-color: #333;
-  /* margin-top: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      margin-left: 20px; */
   margin: 20px 20px 20px 20px;
 }
 
@@ -43,4 +39,17 @@ body {
   color: #f2f2ff;
   text-decoration: none;
   position: relative;
+}
+
+.main-ctn {
+  height: 500px;
+  color: #ffffff;
+  text-align: center;
+  background: url('./assets/wifi-moon.webp');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
