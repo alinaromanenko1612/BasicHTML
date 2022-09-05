@@ -1,0 +1,46 @@
+html,
+body {
+  background-color: #333;
+  /* margin-top: 20px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px; */
+  margin: 20px 20px 20px 20px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.header .lang a {
+  color: #ffffff;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: auto 10px;
+  list-style-type: none;
+}
+
+.menu li a {
+  color: #f2f2ff;
+  text-decoration: none;
+  position: relative;
+}
